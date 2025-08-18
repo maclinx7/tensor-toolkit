@@ -4,35 +4,26 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tensor-toolkit"
-version = "0.1.0"
-description = "A lightweight PyTorch utility toolkit for tensors"
+version = "0.1.1"
+description = "Essential PyTorch utilities for fast and flexible tensor operations"
 readme = "README.md"
-license = "MIT"
-authors = [
-    { name = "Suresh K", email = "sureshstr38@gmail.com" }
-]
 requires-python = ">=3.8"
 dependencies = [
     "torch>=1.10.0",
     "numpy>=1.21.0"
 ]
 
+authors = [
+    { name = "Suresh K", email = "sureshstr38@gmail.com" }
+]
+
+license = { file = "LICENSE" }
+
 [project.urls]
 Homepage = "https://github.com/suressssz/tensor-toolkit"
-BugTracker = "https://github.com/suressssz/tensor-toolkit/issues"
+Bugtracker = "https://github.com/suressssz/tensor-toolkit/issues"
+Repository = "https://github.com/suressssz/tensor-toolkit"
 
 [tool.setuptools.packages.find]
-where = ["tensorkit"]
-
-[tool.pytest.ini_options]
-minversion = "6.0"
-addopts = "-ra -q"
-testpaths = ["tests"]
-
-[tool.coverage.run]
-branch = true
-source = ["tensorkit"]
-
-[tool.coverage.report]
-show_missing = true
-skip_covered = true
+where = ["."]
+include = ["tensorkit*"]
