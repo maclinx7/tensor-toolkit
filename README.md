@@ -1,6 +1,6 @@
 # tensor-toolkit
-![PyPI](https://img.shields.io/pypi/v/dfflow)
-![Python](https://img.shields.io/pypi/pyversions/dfflow)
+![PyPI](https://img.shields.io/pypi/v/tensor-toolkit)
+![Python](https://img.shields.io/pypi/pyversions/tensor-toolkit)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 A lightweight PyTorch utility toolkit for tensor operations, validation, and model utilities.
