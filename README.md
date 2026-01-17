@@ -1,6 +1,5 @@
 # tensor-toolkit
 ![PyPI](https://img.shields.io/pypi/v/tensor-toolkit)
-![Python](https://img.shields.io/pypi/pyversions/tensor-toolkit)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![PyTorch](https://img.shields.io/badge/PyTorch-supported-red)
 
